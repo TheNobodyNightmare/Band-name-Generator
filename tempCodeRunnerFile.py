@@ -1,7 +1,7 @@
-from sklearn.cluster import KMeans
+while True:
+    print("Welcome To the Digital Coffee Machine")
+    Choice = input("What would you like(espresso/latte/cappuccino):")
 
-marks = [[35],[78],[52],[90],[20]]
-k = KMeans(n_clusters=3)
-k.fit(marks)
-
-print(k.labels_)
+    if Choice == "off":
+        print("The Coffee Machine is Turned Off")
+        break
